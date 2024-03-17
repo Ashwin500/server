@@ -6,7 +6,7 @@ function executeCurl() {
   curlOutput.innerHTML = '';
 
   // Execute the curl command
-  fetch('https://api.example.com/execute-curl', {
+  fetch('https://apius.reqbin.com/api/v1/requests', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
