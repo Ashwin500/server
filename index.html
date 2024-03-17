@@ -3,11 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Post to Pastebin</title>
+  <title>Curl Command Editor</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <textarea id="vid" placeholder="Enter your code here"></textarea>
-  <button id="postButton">Post to Pastebin</button>
+  <textarea id="curlInput" placeholder="Enter your curl command here..."></textarea>
+  <button onclick="executeCurl()">Execute</button>
+  <div id="curlOutput"></div>
 
   <script src="script.js"></script>
 </body>
