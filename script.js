@@ -1,7 +1,7 @@
 document.getElementById('postButton').addEventListener('click', function() {
     var code = document.getElementById('vid').value;
     var apiUrl = "https://pastebin.com/api/api_post.php";
-    var apiKey = "7WHVkbqB_RrZMtT2gnjesDp4U42Mqa";
+    var apiKey = "7WHykVkbqB_RrZMtT2gnjesDp4U42Mqa";
 
     var xhr = new XMLHttpRequest();
     xhr.open("POST", apiUrl, true);
